@@ -1,0 +1,1 @@
+# scs_pharo_quality_rules_framwork
