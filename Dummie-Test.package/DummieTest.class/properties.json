@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Dummie-Test",
+	"classinstvars" : [
+		"goodExs"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"goodExs",
+		"badExs",
+		"goodExsSuper",
+		"badExsSuper"
+	],
+	"name" : "DummieTest",
+	"type" : "normal"
+}
