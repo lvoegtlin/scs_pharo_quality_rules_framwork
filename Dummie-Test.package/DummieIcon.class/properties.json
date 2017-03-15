@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractMethodIconAction",
+	"category" : "Dummie-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DummieIcon",
+	"type" : "normal"
+}
