@@ -1,12 +1,11 @@
 order
 privateActionIcon
 	"Return the icon for this action"
-	|theMethod|
-	theMethod := DummieTest>>#testBadSuperRule.
+	
 	
 	^ IconicButton new
-		target: DummieTest new;
-		actionSelector: #setProperty:;
+		target: self;
+		actionSelector: #check:;
 		arguments: {method};
 		labelGraphic: (self iconForResultOf: method);
 		color: Color transparent;

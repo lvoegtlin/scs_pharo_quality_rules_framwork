@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 3/20/2017 10:49",
 	"super" : "AbstractMethodIconAction",
-	"category" : "Dummie-Test",
+	"category" : "Renraku-TestDoc",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "DummieIcon",
+	"name" : "ReExampleIcon",
 	"type" : "normal"
 }
