@@ -3,7 +3,13 @@ check: aMethod
 	| ruleClass critiques |
 	
 	ruleClass := aMethod methodClass theNonMetaClass.
-	critiques := ruleClass new check: method.
+	
+	critiques := ruleClass checksNode
+		ifTrue: [ 
+			method ast allChildren flatCollect: [ :node |
+				ruleClass new check: node ] ]
+		ifFalse: [
+			ruleClass new check: method. ].
 	
 	aMethod propertyAt: #exampleStatus put: (
 		(aMethod hasPragmaNamed: #reExampleGood)
