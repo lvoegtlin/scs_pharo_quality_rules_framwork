@@ -1,15 +1,21 @@
 order
 check: aMethod
-	| ruleClass critiques |
+	| ruleClass critiques methodToTest |
 	
 	ruleClass := aMethod methodClass theNonMetaClass.
 	
+	methodToTest := (aMethod hasPragmaNamed: #reExampleObject)
+		ifFalse: [ aMethod ]
+		ifTrue: [ ruleClass executeMethod: aMethod ].
+	
+	1 halt.
+	
 	critiques := ruleClass checksNode
 		ifTrue: [ 
-			method ast allChildren flatCollect: [ :node |
+			methodToTest ast allChildren flatCollect: [ :node |
 				ruleClass new check: node ] ]
 		ifFalse: [
-			ruleClass new check: method. ].
+			ruleClass new check: methodToTest. ].
 	
 	aMethod propertyAt: #exampleStatus put: (
 		(aMethod hasPragmaNamed: #reExampleGood)
