@@ -8,8 +8,6 @@ check: aMethod
 		ifFalse: [ aMethod ]
 		ifTrue: [ ruleClass executeMethod: aMethod ].
 	
-	1 halt.
-	
 	critiques := ruleClass checksNode
 		ifTrue: [ 
 			methodToTest ast allChildren flatCollect: [ :node |
