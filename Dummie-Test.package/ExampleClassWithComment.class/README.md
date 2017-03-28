@@ -1,0 +1,1 @@
+This class is a good example for a class with a comment
