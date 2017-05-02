@@ -1,5 +1,5 @@
 *renraku-TestDoc
-aExampleBad
+anExampleBad
 	<reExampleBad>
 	<reExampleObject>
 	
