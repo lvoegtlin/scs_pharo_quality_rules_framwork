@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExampleInstVarInSubclassesSuperclassBad",
+	"category" : "Renraku-Test-Classes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"test"
+	],
+	"name" : "ExampleInstVarInSubclassesBad",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+otherProd
+aMethod
+	^'something'.

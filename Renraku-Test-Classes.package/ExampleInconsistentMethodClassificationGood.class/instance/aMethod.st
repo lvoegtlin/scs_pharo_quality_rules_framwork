@@ -1,0 +1,3 @@
+testProd
+aMethod
+	^'something'.
