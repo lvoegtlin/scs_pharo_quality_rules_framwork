@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Renraku-Test-Classes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"something"
+	],
+	"name" : "ExampleDefinesEqualsNotHashBad",
+	"type" : "normal"
+}

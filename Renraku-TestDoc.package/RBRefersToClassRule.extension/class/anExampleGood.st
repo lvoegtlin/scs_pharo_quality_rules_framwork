@@ -2,4 +2,4 @@
 anExampleGood
 	<reExampleGood>
 	
-	^ self name.
+	^self new.

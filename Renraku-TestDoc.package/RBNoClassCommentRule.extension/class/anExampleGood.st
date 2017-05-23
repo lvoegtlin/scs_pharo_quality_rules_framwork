@@ -3,4 +3,4 @@ anExampleGood
 	<reExampleGood>
 	<reExampleObject>
 
-	^ ExampleClassWithComment
+	^ ExampleClassNoCommentGood

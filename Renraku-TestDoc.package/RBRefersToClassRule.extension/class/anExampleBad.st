@@ -2,4 +2,4 @@
 anExampleBad
 	<reExampleBad>
 	
-	^RBRefersToClassRule name.
+	^self new.
